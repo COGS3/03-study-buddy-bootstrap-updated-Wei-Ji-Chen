@@ -1,0 +1,230 @@
+
+/* COGS3 studyBuddy specific styles go here. */
+
+
+
+body {
+    font-family: 'Lato', sans-serif;
+  }
+  
+
+  #title {
+    background-color: #e0f7fa; /* Light Cyan */
+    color: #00796b; /* Teal */
+  }
+  
+  .container-fluid {
+    padding: 3% 15%;
+  }
+  
+  h1 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: #004d40; /* Dark Teal */
+  }
+  
+  h2 {
+    color: #004d40; /* Dark Teal */
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  h3 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: #004d40; /* Dark Teal */
+  }
+  
+  p {
+    color: #004d40; /* Dark Teal */
+  }
+  
+  /* Navbar */
+  .navbar {
+    padding: 0 0 4.5rem;
+  }
+  
+  .navbar-brand {
+    font-family: 'Lato', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #004d40; /* Dark Teal */
+  }
+  
+  .navbar-item {
+    padding: 0 18px;
+  }
+  
+  .navbar-link {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2rem;
+    color: #004d40; /* Dark Teal */
+  }
+  
+  /* Buttons */
+  .download-button {
+    margin: 5% 3% 5% 0;
+  }
+  
+  .btn-dark {
+    background-color: #004d40; /* Dark Teal */
+    color: #ffffff; /* White */
+  }
+  
+  .btn-outline-light {
+    border-color: #004d40; /* Dark Teal */
+    color: #004d40; /* Dark Teal */
+  }
+  
+  .title-image {
+    width: 60%;
+    transform: rotate(20deg);
+    position: absolute;
+  }
+  
+  /* Call To Action Section */
+  #cta {
+    background-color: #e0f7fa; /* Light Cyan */
+    color: #004d40; /* Dark Teal */
+    padding: 7% 15%;
+    text-align: center;
+  }
+  
+  .cta-heading {
+    font-family: 'Oswald', sans-serif;
+    font-size: 3.5rem;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #004d40; /* Dark Teal */
+  }
+  
+  /* Footer */
+  #footer {
+    background-color: #e0f7fa; /* Light Cyan */
+    color: #004d40; /* Dark Teal */
+    padding: 7% 15%;
+    text-align: center;
+  }
+  
+  .social-icon {
+    margin: 20px 10px;
+    color: #004d40; /* Dark Teal */
+  }
+  
+  /* Features Section */
+  #features {
+    padding: 7% 15%;
+    background-color: #ffeb3b; /* Light Yellow */
+    position: relative;
+    z-index: 1;
+    color: #3e2723; /* Dark Brown */
+  }
+  
+  .feature-box {
+    text-align: center;
+    padding: 5%;
+  }
+  
+  .icon {
+    color: #004d40; /* Dark Teal */
+    margin-bottom: 1rem;
+  }
+  
+  .icon:hover {
+    color: #8fdbf2;
+  }
+  
+  /* Testimonials Section */
+  #testimonials {
+    background-color: #e0f7fa; /* Light Cyan */
+    color: #004d40; /* Dark Teal */
+    text-align: center;
+  }
+  
+  .carousel-item {
+    padding: 7% 15%;
+  }
+  
+  .testimonial-image {
+    width: 20%;
+    border-radius: 50%;
+    margin: 10px;
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: #004d40; /* Dark Teal */
+  }
+  
+  em {
+    color: #004d40; /* Dark Teal */
+  }
+  
+  /* Press Section */
+  #press {
+    background-color: #ffeb3b; /* Light Yellow */
+    text-align: center;
+    color: #3e2723; /* Dark Brown */
+  }
+  
+  .press-logo {
+    width: 10%;
+    margin: 20px 20px 50px;
+  }
+  
+  /* Pricing Section */
+  #pricing {
+    padding: 100px;
+    text-align: center;
+    background-color: #ffeb3b; /* Light Yellow */
+    
+  }
+  
+  .pricing-header {
+    color: #3e2723; /* Dark Brown */
+  }
+  
+  .pricing-column {
+    padding: 3% 2%;
+  }
+  
+  .card {
+    background-color: #e0f7fa; /* Light Cyan */
+    border: none;
+  }
+  
+  .card-header {
+    background-color: #00796b; /* Teal */
+    color: #ffffff; /* White */
+  }
+  
+  .card-body {
+    color: #004d40; /* Dark Teal */
+  }
+  
+  .btn-lg {
+    background-color: #004d40; /* Dark Teal */
+    color: #ffffff; /* White */
+  }
+  
+  .btn-lg.btn-block {
+    border-color: #004d40; /* Dark Teal */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 1028px) {
+    #title {
+      text-align: center;
+    }
+  
+    .title-image {
+      position: static;
+      transform: rotate(0);
+    }
+  }
+  
